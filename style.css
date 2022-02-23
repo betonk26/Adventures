@@ -1,0 +1,113 @@
+body {
+	background-image: url("img/back.jpg");
+	background-size: cover;
+}
+.header {
+	background: ;
+	padding: 1px;
+}
+#kotak {
+        background: -webkit-linear-gradient(bottom, #E2E2E2, #ecfffb);
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.61);
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 329px;
+}
+#card-content {
+      padding: 12px 40px;
+}
+#card-title {
+      font-family: "times new roman";
+      letter-spacing: 4px;
+      padding-bottom: 5px;
+      padding-top: 2px;
+      text-align: center;
+}
+.underline-title {
+      background: black;
+      height: 2px;
+      margin: -1.1rem auto 0 auto;
+      width: 89px;
+}
+a {
+    text-decoration: none;
+}
+label {
+    font-family: "times new roman";
+    font-size: 14pt;
+    padding-left: 1px;
+}
+#forgot-pass {
+    color: #3F5EFB;
+    font-family: "times new roman";
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: black;
+    height: 1px;
+    width: 90%;
+}
+.form-kotak {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-top: 11px;
+    width: 250px;
+}
+#signup {
+    color: black;
+    font-family: "times new roman";
+    font-size: 16pt;
+    margin-top: 20px;
+    padding-left: 75px;
+    text-align: center;
+    text-shadow: 3px 5px 3px grey;
+}
+#signup:hover {
+    text-shadow: 0px 1px 18px #00d1ff;
+}
+#submit-btn {
+    background: black;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px;
+    cursor: pointer;
+    color: white;
+    font-family: "times new roman";
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 1px;
+    transition: 0.25s;
+    width: 240px;
+}
+#submit-btn:hover {
+    
+    border-color: #3d6cb9;
+    color: white;
+    background-image: linear-gradient(45deg, #3d6cb9 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 500ms ease-in-out;
+    text-shadow: 0px 1px 18px #00d1ff;
+}
+#copyright {
+    font-family: "times new roman";
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height:30px;
+    line-height:30px;
+    background:white;
+    color:black;
+    padding-left: 590px;
+    padding-bottom: 5px;
+}

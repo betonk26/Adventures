@@ -1,0 +1,110 @@
+body{
+	background-image: url("img/dasar.jpg");
+	background-size: cover;
+}
+#logout {
+	text-align: right;
+	color: white;
+	padding-right: 50px;
+}
+p {
+	color: white;
+}
+#clock {
+	color: white;
+	padding-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+	padding-left: 12px;
+	font-family: "calibri", sans-serif;
+	color: #a1eafb;
+}
+h4 {
+	text-align: center;
+	padding-left: 12px;
+	font-family: "calibri", sans-serif;
+	color: white;
+	
+}
+a {
+	text-decoration: none;
+}
+nav{
+	background: black;
+	padding-left: 10px;
+	word-spacing: 1em;
+	box-shadow: 0px 1px 16px 2px #00d1ff;
+
+}
+nav a{ 
+	transition:all 0.3s ease-in-out;
+	text-decoration: none;
+	color: white;
+	font-family: "times new roman";
+	font-size: 14px;
+	padding: 25px;
+	display: inline-block;
+
+
+ }
+ ul {
+	display:inline;
+	margin:0;
+	padding:0;	
+}
+ul li {
+	display:inline-block;
+}
+ul li:hover {
+	transition:all 0.3s ease-in-out;
+	color:#3F5EFB;
+	cursor:pointer;
+}
+ul li:hover ul {
+	display:block;
+}
+ul li ul {
+	position:absolute;
+	width:200px;
+	display:none;
+}
+ul li ul li {
+	background: black;
+	display:block;
+}
+ul li ul li a {
+	display:block !important;
+}
+ul li ul li:hover {
+	background:#666;
+}
+#copyright{
+	bottom: 0;
+    width: 100%;
+    position: fixed;
+    height:30px;
+    line-height:30px;
+    background:white;
+    color:black;
+    padding-left: 600px;
+}
+.about {
+	color: black;
+	font-size: 24px;
+	font-family: "times new roman";
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+}
+.gambar {
+	border-radius: 8px;
+	box-shadow: 2px 1px 5px black;
+}
+h4 {
+	text-align: center;
+	font-family: "book antiqua";
+	color: black;
+	font-size: 30px;
+}

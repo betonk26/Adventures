@@ -1,0 +1,84 @@
+body {
+	background-image: url("img/dasar.jpg");
+	background-size: cover;
+}
+#kotak {
+	background: solid;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.61);
+    height: 410px;
+    margin: 1rem auto 8.1rem auto;
+    width: 329px;
+}
+#card-content {
+      padding: 12px 40px;
+}
+#card-title {
+      font-family: "times new roman";
+      letter-spacing: 4px;
+      padding-bottom: 5px;
+      padding-top: 2px;
+      text-align: center;
+}
+#kode {
+	margin: 10px;
+	text-align: left;
+	font-family: "times new roman";
+	font-size: 18px;
+}
+#nama {
+	margin: 10px;
+	text-align: left;
+	font-family: "times new roman";
+	font-size: 18px;
+}
+#barang {
+	margin: 10px;
+	text-align: left;
+	font-family: "times new roman";
+	font-size: 18px;
+}
+#jumlah {
+	margin: 10px;
+	text-align: left;
+	font-family: "times new roman";
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.btn {
+    background: grey;
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px;
+    cursor: pointer;
+    color: white;
+    font-family: "times new roman";
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 1px;
+    transition: 0.25s;
+    width: 240px;
+}
+.btn:hover {
+    
+    border-color: #3d6cb9;
+    color: white;
+    background-image: linear-gradient(45deg, #3d6cb9 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 500ms ease-in-out;
+    text-shadow: 0px 1px 18px #00d1ff;
+}
+#copyright{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height:30px;
+    line-height:30px;
+    background:white;
+    color:black;
+    padding-left: 600px;
+}

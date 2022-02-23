@@ -1,0 +1,59 @@
+body {
+	background-image: url("img/dasar.jpg");
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.row {
+	font-family: "times new roman";
+	font-size: 24px;
+	padding-left: 120px;
+}
+tr td{ border: 1px solid black;
+	padding: 15px;
+	width: 80px;
+	text-align: center;
+}
+tr:nth-child(even) {
+	background-color:white;
+}
+tr:hover {
+	background-color: yellow
+}
+th {
+	border:1px solid black; 
+	text-align: center; 
+	background-color:#008080; 
+	color : white;
+	width: 250px;
+}
+#clock {
+	text-align: right;
+	font-family: "times new roman";
+	font-size: 14px;
+	color: black;
+	padding-right: 50px;
+}
+#copyright{
+	bottom: 0;
+    width: 100%;
+    position: fixed;
+    height:30px;
+    line-height:30px;
+    background:white;
+    color:black;
+    padding-left: 600px;
+}
+.kembali {
+	height: 30px;
+	width: 90px;
+	text-align: center;
+	margin-left: 120px;
+	border-radius: 8px;
+	box-shadow: 1px 2px 2px black;
+}
+.kembali:hover {
+	box-shadow: 1px 2px 2px grey;
+}
